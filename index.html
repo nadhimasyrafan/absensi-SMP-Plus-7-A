@@ -71,11 +71,11 @@ function kirimWhatsApp() {
         laporan_siswa += `- ${namaTampil}: ${simbol}%0A`;
     });
 
-    var pesan = `Laporan Kehadiran:%0A`%0A` +
+    var pesan = `Laporan Kehadiran:%0A%0A` +
                 `Mapel: ${mapel}%0A` +
                 `Nama Guru: ${nama_guru}%0A` +
                 `Hari, Tanggal: ${hari_tanggal}%0A` +
-                `Catatan: ${catatan}%0A`%0A` +
+                `Catatan: ${catatan}%0A%0A` +
                 `Kehadiran Siswa:%0A` +
                 laporan_siswa;
 
@@ -83,4 +83,5 @@ function kirimWhatsApp() {
 }
 </script>
 </body>
+
 </html>
