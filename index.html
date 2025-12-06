@@ -9,7 +9,7 @@
     Mapel: <input type="text" id="mapel"><br><br>
     Nama Guru: <input type="text" id="nama_guru"><br><br>
     Hari, Tanggal: <input type="text" id="hari_tanggal"><br><br>
-    Catatan: <input type="text" id="catatan"><br><br>
+    Materi: <input type="text" id="materi"><br><br>
 
     Kehadiran Siswa:<br>
     Ahmad Anu: 
@@ -44,7 +44,7 @@ function kirimWhatsApp() {
     var mapel = document.getElementById("mapel").value;
     var nama_guru = document.getElementById("nama_guru").value;
     var hari_tanggal = document.getElementById("hari_tanggal").value;
-    var catatan = document.getElementById("catatan").value;
+    var materi = document.getElementById("materi").value;
 
     // Daftar siswa
     var siswa = [
@@ -75,7 +75,7 @@ function kirimWhatsApp() {
                 `Mapel: ${mapel}%0A` +
                 `Nama Guru: ${nama_guru}%0A` +
                 `Hari, Tanggal: ${hari_tanggal}%0A` +
-                `Catatan: ${catatan}%0A%0A` +
+                `Materi: ${materi}%0A%0A` +
                 `Kehadiran Siswa:%0A` +
                 laporan_siswa;
 
@@ -85,3 +85,4 @@ function kirimWhatsApp() {
 </body>
 
 </html>
+
